@@ -1,16 +1,14 @@
+import { Nav } from "../Nav/Nav"
+
 const Footer = (probs) => {
     return (
     <footer>
             
-        <nav>
-            {probs.data.map((value, index) => {
-                return (
-                    <a key={index} href={"/" + value}>{value}</a>
-                )
-            })}
+        <nav className="footerNav">
+            <Nav />
         </nav>
     </footer>
     )
 }
 
-export default Footer
+export {Footer}

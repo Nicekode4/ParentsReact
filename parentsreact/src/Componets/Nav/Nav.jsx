@@ -1,8 +1,16 @@
-const Nav = (probs) => {
+const navList = [
+    "Forside",
+   "Produkter",
+   "Om os",
+    "Ledige stillinger",
+    "Kontakt oss"
+]
+
+const Nav = () => {
 
     return (
         <nav>
-            {probs.data.map((value, index) => {
+            {navList.map((value, index) => {
                 return (
                     <a key={index} href={"/" + value}>{value}</a>
                 )
@@ -11,4 +19,4 @@ const Nav = (probs) => {
     )
 }
 
-export default Nav
+export {Nav}

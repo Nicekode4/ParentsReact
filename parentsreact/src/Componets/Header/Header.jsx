@@ -8,4 +8,4 @@ const Header = (probs) => {
     )
 }
 
-export default Header
+export {Header}
