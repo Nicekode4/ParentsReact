@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  a {
+    display: block;
+    }
+}
+
+header{
+  text-align: center;
+  background-color: yellow;
+  padding: 1vw;
+}
+
+footer{
+  text-align: center;
+  background-color: gray;
+  padding: 1vw;
+}
+
+main {
+  background-color: blue;
+  width: 60%;
+  display: inline-block;
+  padding: 1vw;
+  h2{
+    text-align: center;
+  }
+}
+
+nav {
+  background-color: red;
+  display: inline-block;
+  width: 30%;
+  padding: 1vw;
+}
